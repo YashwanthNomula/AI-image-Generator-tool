@@ -4,7 +4,10 @@ from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+
+# 🔥 FIXED: reset pointer before reading
 def encode_image(file):
+    file.seek(0)
     return base64.b64encode(file.read()).decode("utf-8")
 
 
@@ -14,13 +17,14 @@ def run_ai(prompt, inputs, images=None):
         {"type": "text", "text": f"{prompt}\n\n{inputs}"}
     ]
 
-    # Handle uploaded images properly
+    # 🔥 FIXED IMAGE HANDLING
     if images:
         for img in images:
             encoded = encode_image(img)
+
             content.append({
                 "type": "input_image",
-                "image_base64": encoded
+                "image": encoded   # ✅ correct key
             })
 
     response = client.responses.create(
