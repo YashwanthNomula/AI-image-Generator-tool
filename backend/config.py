@@ -1,0 +1,1 @@
+USE_OPENAI = False  # KEEP FALSE on office laptop

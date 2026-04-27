@@ -1,0 +1,15 @@
+Look at all the image prompts you wrote above. Find the next 4 that haven't been generated yet and generate them now — one at a time, as 4 completely separate images.
+
+Rules for every image in this batch:
+
+1. Generate each image separately — one image, then the next, then the next, then the next. Never combine them into a collage, grid, or multi-panel layout. Every image must be a perfect 1:1 square format.
+
+2. Match the product's physical appearance exactly to the reference images I attached — same shape, proportions, color, logo placement, and included components.
+
+3. Use the reference images for product accuracy only. Do not copy their scene, background, people, clothing, color treatment, or design style. Build original visuals.
+
+4. Apply the brand visual system from our strategic plan consistently: same color palette, same font style, same text card style, same mood and lighting direction across all images.
+
+5. People must look real — natural skin texture, genuine expressions, authentic body language. Not AI models, not stock photo energy.
+
+Start with the first ungenerated prompt and work through all 4.
