@@ -1,1 +1,1 @@
-USE_OPENAI = True  # KEEP FALSE on office laptop
+USE_OPENAI = True  # KEEP FALSE on
